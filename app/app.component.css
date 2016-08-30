@@ -1,0 +1,9 @@
+main:after {
+    clear: both;
+}
+main {
+    display: block;
+    float: left;
+    margin: 20px 0 0 0;
+    width: 100%
+}

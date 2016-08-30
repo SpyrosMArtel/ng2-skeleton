@@ -1,0 +1,8 @@
+<language-bar></language-bar>
+<nav>
+    <ul>
+        <li *ngFor="let menuItem of menuItems">
+            <a [routerLink]="[menuItem.options.url]">{{menuItem.label | translate}}</a>
+        </li>
+    </ul>
+</nav>

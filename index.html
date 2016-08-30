@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <base href=".">
+    <title>ng2-skeleton</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/assets/flag-icons/css/flag-icon.min.css">
+    <link rel="stylesheet" href="app/assets/css/style.css">
+    <!-- 1. Load libraries -->
+    <!-- Polyfill(s) for older browsers -->
+    <script src="lib/core-js/client/shim.min.js"></script>
+    <script src="lib/zone.js/dist/zone.min.js"></script>
+    <script src="lib/reflect-metadata/Reflect.js"></script>
+    <script src="lib/systemjs/dist/system.src.js"></script>
+
+    <script src="lib/webcomponentsjs/full.js"></script>
+    <script src="lib/ng2-bootstrap/ng2-bootstrap.min.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function(err){ console.error(err); });
+    </script>
+</head>
+<!-- 3. Display the application -->
+<body>
+    <app>
+        <div class="loading">
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        </div>
+    </app>
+</body>
+</html>

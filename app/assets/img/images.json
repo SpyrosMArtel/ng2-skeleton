@@ -1,0 +1,14 @@
+[
+    {
+      "description": "xkcd.com : identity",
+      "file": "identity.png"
+    },
+    {
+      "description": "xkcd.com : update",
+      "file": "update.png"
+    },
+    {
+      "description": "xkcd.com : goto",
+      "file": "goto.png"
+    }
+]

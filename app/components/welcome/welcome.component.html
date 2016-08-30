@@ -1,0 +1,11 @@
+<div class="carousel-wrapper">
+        <carousel [interval]="myInterval" [noWrap]="noWrapSlides">
+            <slide *ngFor="let slidez of slides" [active]="slidez.active">
+                <img [src]="slidez.file" alt="{{slidez.description}}"/>
+
+                <div class="carousel-caption">
+                    <p>{{slidez.description}}</p>
+                </div>
+            </slide>
+        </carousel>
+</div>

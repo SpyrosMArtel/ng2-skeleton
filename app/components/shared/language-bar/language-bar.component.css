@@ -1,0 +1,15 @@
+.language-bar {
+    height:20px;
+}
+.language-bar li {
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    text-align: center;
+    width: 30px;
+}
+.language-bar ul {
+    list-style: outside none none;
+    margin:0;
+    padding:0;
+}

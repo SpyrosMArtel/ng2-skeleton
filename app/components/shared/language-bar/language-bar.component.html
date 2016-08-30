@@ -1,0 +1,9 @@
+<div [ngClass]="['language-bar']">
+    <ul>
+        <li *ngFor="let language of languages">
+            <a href="javascript:void(0)" (click)="switchLanguage(language.label)">
+                <span [ngClass]="['flag-icon', language.options.flag]"></span>
+            </a>
+        </li>
+    </ul>
+</div>
