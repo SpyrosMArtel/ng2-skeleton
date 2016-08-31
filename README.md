@@ -1,12 +1,12 @@
 # ng2-skeleton
-AngularJS v2 application skeleton
+Angular 2 application skeleton
 
-This project is an AngularJS v2 application skeleton. It features the following:
+This project is an Angular 2 application skeleton. It features the following:
 * ng2-bootstrap
 * ng2-translate
 * gulp
 
-At the current moment the project has been modified to run with AngularJS v2 RC5, and the new router.
+At the current moment the project has been modified to run with Angular 2 RC5, and the new router.
 I will try to update the project with the next version RC6 as soon as possible (RC6 is almost about to be released, if not already out).
 
 ## Structure
